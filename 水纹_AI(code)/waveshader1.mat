@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: waveshader1
+  m_Shader: {fileID: 4800000, guid: df0002115dae5db4393b085585720be6, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - YHX_Texture:
+        m_Texture: {fileID: 2800000, guid: 9b90e18e1f1ef6446a804f3cda0c3a87, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 5f77a176643f6ca46a0ec68a25020405, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5b56d9fa0e8bd6e409ed188db38a692c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - YHX_Float: 0
+    - YHX_Range: 0
+    - YHX_culledit: 0
+    - _BumpScale: 1.81
+    - _BumpSpeed: 0.5
+    - _DepthGradient: 2
+    - _Distortion: 0.86
+    - _DistortionX: 0.5
+    - _DistortionY: 0.5
+    - _FoamDistortion: 0.2
+    - _FoamSpeed: 0.3
+    - _FoamThreshold: 0.4
+    - _Gloss: 0.8
+    - _MaxDepth: 5
+    - _ReflectionStrength: 0.5
+    - _Specular: 8.56
+    - _Speed: 4.06
+    - _WaveAmplitude: 0.3
+    - _WaveFrequency: 2
+    - _WaveSpeed: 1
+    m_Colors:
+    - YHX_Color: {r: 0.81306744, g: 1, b: 0.572327, a: 0.5}
+    - YHX_Vector: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.19999996, g: 0.6, b: 1, a: 0.5}
+    - _DepthColor: {r: 0.09999997, g: 0.29999998, b: 0.8, a: 1}
+    - _EdgeGlow: {r: 0.8, g: 0.9, b: 1, a: 0.5}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WaveDirection: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
