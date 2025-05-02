@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: clip
+  m_Shader: {fileID: 4800000, guid: 61b5969699150ff439ad8694abf81422, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - YHX_Texture:
+        m_Texture: {fileID: 2800000, guid: a074af1f9d9f516468fa95e63dcc983b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 5f77a176643f6ca46a0ec68a25020405, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - CutOut: -0.05
+    - Speed: 10
+    - YHX_Float: 0
+    - YHX_Range: 0
+    - YHX_culledit: 0
+    m_Colors:
+    - Speed: {r: 0, g: -1, b: 0, a: 0}
+    - YHX_Color: {r: 0, g: 0, b: 0, a: 1}
+    - YHX_Vector: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
