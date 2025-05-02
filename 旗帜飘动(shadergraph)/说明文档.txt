@@ -1,0 +1,11 @@
+URP flag shadergraph
+使用版本2021.3.11f1c2
+
+调节：
+strength 调节风强
+direction x/y调节风向
+scall 调节褶皱强度
+
+注意事项：
+1.旗帜必须是plane做的，不可以是诸如cube等其他物体，否则动画会出错
+2.旗帜飘动弱的一边连接旗杆，若方向错了需要调整方向

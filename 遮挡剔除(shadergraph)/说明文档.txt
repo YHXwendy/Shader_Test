@@ -1,0 +1,21 @@
+URP 遮挡剔除shadergraph
+使用版本2021.3.11f1c2
+
+注意：下文中“需要出现被删除遮挡区域的物体”记为“物体z”
+
+调节：
+Cutout Position 调节删除遮挡区域在物体上的位置
+
+Cutout Size 调节删除遮挡区域的大小
+
+Falloff Size 调节删除遮挡区域边界的尖锐程度
+（由于实现方式本身的限制，该调节也会导致遮挡区域大小的变动）
+
+cs脚本中的Target Object/Wall Mask
+前者指定为“希望被看到的对象”，后者指定为物体z。
+功能：摄像机移动会使删除区域跟随移动，使指定物体在一定范围内基本保持可见
+
+使用：
+1.将shader贴给材质，材质贴给物体z。
+2.单独创建一个layer当作物体z的layer。
+3.将cs文件“CutoutObject”添加到Main Camera中，将Target Object选为希望透过删除遮挡区域看到的物体，将Wall Mask 选为与物体z相同的layer。
